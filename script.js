@@ -25,7 +25,7 @@ function adicionarJogadores() {
     pNome.textContent = jogador.nome;
     divJogador.appendChild(pNome);
 
-    // ... outros elementos e informações do jogador
+ 
 
     if (jogador.elenco === "masculino") {
       containerMasculino.appendChild(divJogador);
@@ -53,7 +53,7 @@ function redirecionarParaDetalhesJogador(jogador) {
   // Armazena a URL da imagem do jogador no sessionStorage
   sessionStorage.setItem('fotoAmpliada', jogador.imagem);
 
-  // Altere "detalhes.html" para o nome do arquivo HTML que exibirá as informações detalhadas do jogador
+  
   window.location.href = "detalhes.html?nome=" + jogador.nome;
 }
 
