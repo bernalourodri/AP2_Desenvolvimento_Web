@@ -35,9 +35,9 @@ body {
   }
   
   .foto-jogador {
-    border: 4px solid white; /* Adiciona uma borda branca */
-    border-radius: 10px; /* Arredonda os cantos da borda */
-    overflow: hidden; /* Oculta o conteúdo que ultrapassar a borda */
+    border: 4px solid white; 
+    border-radius: 10px; 
+    overflow: hidden; 
   }
   
   .white-text {
