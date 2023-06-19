@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .jogador {
+  width: 200px; /* Ajuste a largura conforme necessário */
+  margin: 0.5em;
+}
+
+.container .jogador img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ampliar-imagem {
+  transform: scale(1.2); /* Define o fator de escala para ampliar a imagem */
+}
+
+.nome-jogador {
+  color: white;
+}
+
+
+.elenco-masculino {
+  color: white;
+}
+
+.elenco-feminino {
+  color: white;
+}
+
+.foto-jogador {
+  border-radius: 50%;
+}
+
+
+body {
+  background-image: url(plano_de_fundo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

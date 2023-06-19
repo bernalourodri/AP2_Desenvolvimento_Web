@@ -1,0 +1,58 @@
+body {
+  background-image: url(plano_de_fundo_4.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+  
+  .detalhes-jogador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .foto-ampliada {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .informacoes {
+    flex: 1;
+  }
+  
+  .informacoes h2 {
+    margin-top: 0;
+  }
+  
+  .informacoes p {
+    margin-bottom: 10px;
+  }
+  
+  .ampliar-imagem {
+    width: 200px;
+  }
+  
+  .foto-jogador {
+    border: 4px solid white; /* Adiciona uma borda branca */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassar a borda */
+  }
+  
+  .white-text {
+    color: white;
+  }
+
+  .btn-voltar {
+    background-color: gray;
+    color: white;
+  }
+
+ 
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
