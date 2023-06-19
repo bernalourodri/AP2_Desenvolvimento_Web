@@ -4,7 +4,7 @@
 }
 
 .container .jogador {
-  width: 200px; /* Ajuste a largura conforme necessário */
+  width: 200px; 
   margin: 0.5em;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .ampliar-imagem {
-  transform: scale(1.2); /* Define o fator de escala para ampliar a imagem */
+  transform: scale(1.2); 
 }
 
 .nome-jogador {
